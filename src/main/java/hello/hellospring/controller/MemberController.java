@@ -26,7 +26,7 @@ public class MemberController {
         Member member = new Member();
         member.setName(form.getName());
 
-        System.out.println("member.getName() = " + member.getName());
+        System.out.println("member.getName()= " + member.getName());
         memberService.join(member);
 
         return "redirect:/";

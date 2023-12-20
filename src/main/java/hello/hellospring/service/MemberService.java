@@ -34,7 +34,7 @@ public class MemberService {
         // findByName 을 한 결과가 바로 Optional 이니까 바로 ifPresent 로 존재하는지 확인한다.
     }
 
-    public List<Member> findMember() {
+    public List<Member> findMembers() {
         return memberRepository.findAll();
     }
 

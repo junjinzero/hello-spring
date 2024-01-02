@@ -14,7 +14,7 @@ import java.util.Optional;
 public class JdbcMemberRepository implements MemberRepository {
 
 
-    private final v DataSource dataSource;
+    private final DataSource dataSource;
 
     public JdbcMemberRepository(DataSource dataSource) {  // spring 을 통해 dataSource 를 주입받는다.
         this.dataSource = dataSource;

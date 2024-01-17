@@ -19,10 +19,9 @@ class MemberServiceIntegrationTest {
     void 회원가입() {
         //given
         Member member = new Member();
-        member.setName("te");
+        member.setName("2024-01-17 1");
         //When
         Long saveId = memberService.join(member);
-        System.out.println(saveId);
         //Then
         Member findMember = memberService.findOne(saveId).get();
         assertThat(member.getName()).isEqualTo(findMember.getName());

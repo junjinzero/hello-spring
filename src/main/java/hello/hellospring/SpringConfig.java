@@ -41,4 +41,9 @@ public class SpringConfig {
 //        return new JpaMemberRepository(em);
 //    }
 
+//    @Bean
+//    public TimeTraceAop timeTraceAop() {
+//        return new TimeTraceAop();
+//    }
+
 }
